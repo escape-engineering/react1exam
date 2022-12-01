@@ -10,12 +10,13 @@
 .todo-list {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 .todos {
   width: 135px;
   height: 140px;
   padding: 5px;
-  align-items: center;
+  text-align: center;
   justify-content: center;
   border: 2px solid green;
   border-radius: 5px;
